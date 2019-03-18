@@ -1,6 +1,5 @@
 nav {
     background-color: #085add;
-    color: #085add;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -20,16 +19,17 @@ a.left {
 
 .center {
     margin: auto;
-    animation: pulse 5s infinite;
+    animation: pulse 1s infinite;
     opacity: 0.5;
+    color: white;
 }
 
 @keyframes pulse {
   50% {
-    background-color: white;
+    color: lightseagreen;
   }
   100% {
-    background-color: purple;
+    color: purple;
   }
 }
 
