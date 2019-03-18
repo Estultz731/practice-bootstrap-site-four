@@ -1,6 +1,5 @@
 nav {
     background-color: #085add;
-    color: white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -20,7 +19,20 @@ a.left {
 
 .center {
     margin: auto;
+    animation: pulse 1s infinite;
+    opacity: 0.5;
+    color: white;
 }
+
+@keyframes pulse {
+  50% {
+    color: lightseagreen;
+  }
+  100% {
+    color: purple;
+  }
+}
+
 
 .left:hover {
     text-decoration: none;
@@ -54,3 +66,5 @@ a.left {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+
+  
