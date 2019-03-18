@@ -2,7 +2,8 @@ nav {
     background-color: #085add;
     color: white;
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
+    align-items: center;
     -webkit-box-shadow: 0 5px 20px 0px #000;
     -moz-box-shadow: 0 5px 20px 0px #000;
     box-shadow: 0 5px 20px 0px #000;
@@ -14,16 +15,17 @@ a.left {
     color: white;
     text-decoration: none;
     font-family: tahoma;
-    justify-self: start;
+    margin: 0;
+}
+
+.center {
+    margin: auto;
 }
 
 .left:hover {
     text-decoration: none;
 }
 
-.fas fa-anchor {
-    justify-self: center;
-}
 
 .top {
     background-color: #085add;
